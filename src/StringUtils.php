@@ -8,14 +8,14 @@ class StringUtils
      * substringsBetween
      *
      * @param mixed $str
-     * @param string $open
-     * @param string $close
+     * @param mixed $open
+     * @param mixed $close
      * @return string[]
      */
     public static function substringsBetween(
         mixed $str,
-        string $open,
-        string $close
+        mixed $open,
+        mixed $close
     ): array|null {
 
         if ($str == null || empty($open) || empty($close)) {
