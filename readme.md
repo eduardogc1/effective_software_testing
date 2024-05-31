@@ -2,4 +2,4 @@
 
 ## Chapter 2: Specification-based testing
 
-- substringsBetween() method
+- [SubstringsBetweenTest()](tests/SubstringsBetweenExampleTest.php)
